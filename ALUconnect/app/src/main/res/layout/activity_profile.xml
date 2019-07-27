@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfil"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/myprofile_pic"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/myprofile_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_below="@+id/myprofile_pic"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/input_box"
+                android:text="Profile Name"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myprofile_username"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_below="@+id/myprofile_fullname"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/input_box"
+                android:text="User Name"                android:textColor="@android:color/black"
+
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myprofile_status"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_below="@+id/myprofile_username"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"                android:textColor="@android:color/black"
+
+                android:layout_marginTop="3dp"
+                android:background="@drawable/input_box"
+                android:text="Hey there i am using AluConnect"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myprofile_country"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/myprofile_username"                android:textColor="@android:color/black"
+
+                android:layout_alignParentStart="true"
+
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="66dp"
+                android:background="@drawable/input_box"
+                android:text="Phone Number"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myprofile_dateob"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/myprofile_country"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_box"
+                android:text="Date Of Birth"                android:textColor="@android:color/black"
+
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myprofile_gender"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/myprofile_dateob"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_box"
+                android:text="Gender"
+                android:textAlignment="center"                 android:textColor="@android:color/black"
+
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myprofile_collegename"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/myprofile_gender"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_box"                android:textColor="@android:color/black"
+
+                android:text="CollegeName"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myprofile_collegeuid"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_below="@+id/myprofile_collegename"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="13dp"                 android:textColor="@android:color/black"
+
+                android:background="@drawable/input_box"
+                android:text="College ID"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myprofile_gradyear"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@+id/myprofile_collegeuid"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/input_box"
+                android:text="Graduation Year"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

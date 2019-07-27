@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ALUconnect</string>
+    <string name="Drawer_open">Drawer open</string>
+    <string name="Drawer_close">Drawer close</string>
+</resources>

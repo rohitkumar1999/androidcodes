@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1008887722413",
+    "firebase_url": "https://aluconnect-c4b13.firebaseio.com",
+    "project_id": "aluconnect-c4b13",
+    "storage_bucket": "aluconnect-c4b13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008887722413:android:a33d0362a6f6ec20",
+        "android_client_info": {
+          "package_name": "com.example.rohit.aluconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008887722413-78v9kbdpt5n9088okd1jkq87vta475s7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohit.aluconnect",
+            "certificate_hash": "4fc32c65073959b309524e6765e32771ec31f5ba"
+          }
+        },
+        {
+          "client_id": "1008887722413-nj0erpmrnrgev1aoka2b6ijgn78tf7im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohit.aluconnect",
+            "certificate_hash": "94e43b0d00af064bfe41fbd16147b9d01b20d890"
+          }
+        },
+        {
+          "client_id": "1008887722413-q3663c6cve59g7gb96nro6l8oaq64nu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyaqdGNaHlBAw2uAxzD-MCbf45Q27SrFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008887722413-q3663c6cve59g7gb96nro6l8oaq64nu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity"
+    android:background="@drawable/register">
+
+    <EditText
+        android:id="@+id/setup_full_name"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/name"
+        android:ems="10"
+
+        android:hint="FULL NAME"
+        android:inputType="textCapCharacters"
+        android:padding="14dp" />
+
+    <EditText
+        android:id="@+id/setup_country_name"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="385dp"
+
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/country"
+
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="14dp" />
+
+
+    <EditText
+        android:id="@+id/setup_username"
+
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:hint="USERNAME"
+        android:inputType="textCapCharacters"
+        android:padding="14dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="92dp"
+        android:src="@drawable/profile" />
+
+    <Button
+        android:id="@+id/setup_information_button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+        android:padding="14dp"
+        android:text="SAVE"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
