@@ -2,13 +2,23 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".NegativeFragment">
+    android:layout_height="300dp"
+    tools:context=".NegativeFragment"
+    android:orientation="vertical"
+    android:id="@+id/fragNegative"
+    android:background="@color/colorPrimary">
 
-    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click + "
+        android:id="@+id/btnNegative"
+        android:layout_gravity="center_horizontal"/>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNegative"
+        android:text="0"
+        android:textSize="30sp"/>
 
 </FrameLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70896410031",
+    "firebase_url": "https://syndinnovate.firebaseio.com",
+    "project_id": "syndinnovate",
+    "storage_bucket": "syndinnovate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70896410031:android:c1ba1efb57fbeced",
+        "android_client_info": {
+          "package_name": "me.kumarrohit.syndinnovate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70896410031-khh5pv41gkqlgk620j43vk99v8cbdi34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.kumarrohit.syndinnovate",
+            "certificate_hash": "16d66a385df590064c4bbaac5250bec4c7977a72"
+          }
+        },
+        {
+          "client_id": "70896410031-t7o8c915p892p3kke4a3e4377688uv1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS0M-bHN_oY2zgoZsf0oXDr00jR97MX8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70896410031-t7o8c915p892p3kke4a3e4377688uv1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

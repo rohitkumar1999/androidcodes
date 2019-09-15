@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_weight="2"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:name="me.kumarrohit.includelayout.NegativeFragment"
+        android:id="@+id/fragNegative1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_negative"
+           />
+    <fragment
+        android:name="me.kumarrohit.includelayout.BlankFragment"
+        android:layout_width="match_parent"
+        android:id="@+id/fragPositive1"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_blank"/>
+</LinearLayout>
