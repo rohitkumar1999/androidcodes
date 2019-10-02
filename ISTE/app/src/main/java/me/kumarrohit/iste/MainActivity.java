@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
             } else {
                 // Sign in failed
+//please enter your correct email and password
                 if (response == null) {
                     // User pressed back button
                     return;
